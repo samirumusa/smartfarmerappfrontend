@@ -1,0 +1,22 @@
+/* .ccaption{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  flex-direction: column;
+  top:400px;
+  z-index:999;
+} */
+.carousel-caption {
+  top: 200px;
+  bottom: auto;
+}
+.cbtn-container{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+
+}
+.cbtn{
+  margin-left:12px;
+}

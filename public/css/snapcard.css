@@ -1,0 +1,58 @@
+.image_path{
+    margin-left:14px;
+}
+.snapHeader{
+    background-color:green;
+    color:white;
+}
+.card-header{
+    background-color:green;
+    color:white;
+}
+.card-footer{
+    background-color:green;
+    color:white;
+}
+
+.cIcon{
+  font-size:200px;
+  color:green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.imgContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+}
+@media only screen and (max-width:768) {
+    .imgContainer{
+        flex-direction: column;
+        max-width:100%;
+    }   
+    .image_path{
+        width:80%;
+        height:auto;
+        margin-top: 6px;
+    }
+    img{
+        width: 100%;
+    }
+
+}
+.snapFooter{
+    background-color:rgba(0, 128, 0, 0.953);
+    color: white;
+}
+
+.snapBody{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(152, 207, 152, 0.338);
+    color:black;
+}
+
